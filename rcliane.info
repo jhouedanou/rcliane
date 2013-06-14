@@ -1,0 +1,12 @@
+name = Leadership et Initiatives des Acteurs non Etatiques
+core = 7.x
+description = Un template pour drupal, responsive
+screenshot = /images/screenshot.png
+regions[sponsors] = sponsors
+regions[social] = Reseaux sociaux
+
+stylesheets[all][] = style.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/grid_12.css
+stylesheets[all][] = css/bootstrap-responsive.css
+stylesheets[all][] = css/bootstrap.css
