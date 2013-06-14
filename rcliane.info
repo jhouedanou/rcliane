@@ -4,6 +4,7 @@ description = Un template pour drupal, responsive
 screenshot = /images/screenshot.png
 regions[sponsors] = sponsors
 regions[social] = Reseaux sociaux
+regions[navbar] = La navigation horizontale
 
 stylesheets[all][] = style.css
 stylesheets[all][] = css/reset.css
