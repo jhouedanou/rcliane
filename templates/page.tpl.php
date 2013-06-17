@@ -18,7 +18,7 @@
                 <?php print render($page['social']) ;?>
         </div>
             <div id="navbarwrapper">
-                <
+                <?php print render($page['navbar']);?>
             </div><!--navbarwrapper-->
     <!--slider page accueil-->
         <div id="slide">
@@ -46,6 +46,8 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
 </header>
 <section id="content"><div class="ic"></div>
     <div class="container_12" id="homemsg">
+            <?php print render($page['actu']);?>
+
         <h2 class="p6" id="crasc-sud">Bienvenue sur le site web du projet LIANE</h2>
          <p id="tetia">                 <img style="background:#FFF;padding:5px;float:left;margin-right:5px" src="images/logo.gif" alt="">
 Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
@@ -268,8 +270,8 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
                 </ul>
             </div>
             <h2 class="p3">Rapports d'activités</h2>
-
       </div>
+      <!--summmon the connexion form.here. Terminate it on site launch-->
       <div class="clear"></div>
     </div>
 </section>
@@ -282,7 +284,8 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
                 <img id="ceraplogo" src="images/Untitled2.png"/>
                 <img src="images/untitled.jpg"/><br/>
             </div>
-            <p>© 2013 | Programme Leadership et Initiatives des Acteurs non Étatiques (LIANE)</p>
+            <p>© 2013 | Programme Leadership et Initiatives des Acteurs non Étatiques (LIANE)  |<a href="#myModal2" data-toggle="modal">Se connecter</a>
+</p>
         </div>
         <div class="grid_5" id="ifrapport">
             <h3 class="p3" id="footsie">partenaires</h3>
@@ -320,6 +323,27 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
     </div>
   </div>
 </form>  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Fermer cette fenêtre</button>
+  </div>
+</div>
+<!--formulaire de connexion a l interface d admin-->
+<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Newsletter</h3>
+  </div>
+    <div class="modal-body">
+
+<?php
+  if(!user_is_logged_in() ){
+    print drupal_render(drupal_get_form('user_login'));
+  }else{
+    print "You are already logged in!";
+  }
+?>
+
+    </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Fermer cette fenêtre</button>
   </div>

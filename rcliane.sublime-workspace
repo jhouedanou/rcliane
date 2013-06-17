@@ -8,10 +8,13 @@
 	"buffers":
 	[
 		{
+			"contents": "name = Leadership et Initiatives des Acteurs non Etatiques\ncore = 7.x\ndescription = v1 du template pour le projet liane. TO DO: l'adapter aux écrans, concevoir l'app et la version bas debit\nscreenshot = /images/screenshot.png\nregions[sponsors] = sponsors\nregions[social] = Reseaux sociaux\nregions[navbar] = La navigation horizontale\nregions[connex] = Zone de connexion de l admin\nregions[actu] = message accueil\nregions[featured] = 5 dernieres actualites a mettre en emphase\nregions[crasc-sud] = actualite CRASC sud\nregions[crasc-nord] = actualite CRASC nord\nregions[crasc-ouest] = actualite CRASC ouest\nregions[crasc-est] = actualite CRASC est\nregions[crasc-centre] = actualite CRASC centre\nregions[logosfooter] = logos dans le pied de page\nregions[partenaires] = logos des partenaires dans le pied de page\nregions[newsletter] = formulaire inscription newsletter\nregions[annonces] = listes de 5 dernieres annonces\nregions[bddosc] = lien vers la bdd des osc\nregions[agendaosc] = agenda des osc\nregions[liens-utiles] = hyperliens utiles\nregions[rapports] = liens pour telecharger les rapports\nstylesheets[all][] = style.css\nstylesheets[all][] = css/reset.css\nstylesheets[all][] = css/grid_12.css\nstylesheets[all][] = css/bootstrap-responsive.css\nstylesheets[all][] = css/bootstrap.css\n",
 			"file": "rcliane.info",
+			"file_size": 1249,
+			"file_write_time": 130159556529278322,
 			"settings":
 			{
-				"buffer_size": 456,
+				"buffer_size": 1284,
 				"line_ending": "Windows",
 				"name": "name = Leadership et Initiatives des Acteurs non E"
 			}
@@ -33,10 +36,37 @@
 			}
 		},
 		{
-			"file": "templates/page.tpl.php",
+			"contents": "<!--user login page-->\n<div class=\"marchand\">\n    <div id=\"upperbox\" class=\"ym-box\">\n    </div>\n    <div id=\"wrapper\" class=\"ym-wrapper\">\n        <div id=\"admin-box\" class=\"ym-wbox\">\n                    <!--logo-->\n                    <div id=\"brnad\">\n                        <img src=\"<?php print $logo ?>\" alt=\"<?php print $site_name; ?>\" />\n                    </div>\n                 <!--formulaire de connexion-->\n                    <div id=\"admin-text\">\n                      <?php print render($page['content']); ?>\n                    </div>\n        </div>\n    </div>\n</div>\n",
 			"settings":
 			{
-				"buffer_size": 18017,
+				"buffer_size": 584,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"main\">\n<div id=\"preheader\" style=\"display:none\">\n    <?php print $site_name; ?>\n</div>\n<header>\n    <div id=\"contenu-header\">\n        <div id=\"honest\">\n          <div>\n                      <a href=\"<?php print base_path(); ?>\">\n                        <img src=\"<?php print $logo; ?>\" alt=\"\" />\n                      </a>\n            </div>\n            <div id=\"spon\">\n                <?php print render($page['sponsors']) ;?>\n            </div>\n        </div>\n        <div class=\"social-icons\">\n                <?php print render($page['social']) ;?>\n        </div>\n            <div id=\"navbarwrapper\">\n                <?php print render($page['navbar']);?>\n            </div><!--navbarwrapper-->\n    <!--slider page accueil-->\n        <div id=\"slide\">\n            <a class=\"prev\"></a>\n            <a class=\"next\"></a>\n            <div class=\"slider\">\n                <div class=\"item\">\n                  <img class=\"illu\" src=\"images/1.jpg\"/>\n                    <div class=\"infos\">\n                    <h3>Atelier de validation des outils d'intervention</h3>\n                    <p>CRASC Stiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\nSed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>\n          </div>\n                </div>\n                <div class=\"item\">\n                    <img class=\"illu\" src=\"images/2.jpg\"/>\n                    <div class=\"infos\">\n                    <h3>Lancement des activités du programme LIANE</h3>\n                    <p>Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\nSed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>\n                    </div>\n                </div>\n        </div>\n    </div>\n</header>\n<section id=\"content\"><div class=\"ic\"></div>\n    <div class=\"container_12\" id=\"homemsg\">\n        <h2 class=\"p6\" id=\"crasc-sud\">Bienvenue sur le site web du projet LIANE</h2>\n         <p id=\"tetia\">                 <img style=\"background:#FFF;padding:5px;float:left;margin-right:5px\" src=\"images/logo.gif\" alt=\"\">\nEtiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\nSed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>\n    </div>\n    <div class=\"container_12\" id=\"principal\">\n    <div class=\"grid_8\">\n        <div class=\"crasc\">\n            \n            <h2 class=\"p6\" id=\"crasc-sud\">CRASC Sud</h2>\n            <div class=\"wrap block-1\">\n                <!--6 dernieres actus-->\n                <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/business\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/sports\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/nature\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n            </div>\n        </div><!--crasc-->\n        <div class=\"crasc\">\n            <h2 class=\"p6\" id=\"crasc-nord\">CRASC Nord</h2>\n            <div class=\"wrap block-1\">\n                <!--6 dernieres actus-->\n                <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/business\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/sports\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/nature\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n            </div>\n        </div><!--crasc-->\n        <div class=\"crasc\">\n            <h2 class=\"p6\" id=\"crasc-ouest\">CRASC Ouest</h2>\n            <div class=\"wrap block-1\">\n                <!--6 dernieres actus-->\n                <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/business\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/sports\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/nature\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n            </div>\n        </div><!--crasc-->\n        <div class=\"crasc\">\n            <h2 class=\"p6\" id=\"crasc-est\">CRASC Est</h2>\n            <div class=\"wrap block-1\">\n                <!--6 dernieres actus-->\n                <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/business\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/sports\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/nature\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n            </div>\n        </div><!--crasc-->\n<div class=\"crasc\">\n            <h2 class=\"p6\" id=\"crasc-centre\">CRASC Centre</h2>\n            <div class=\"wrap block-1\">\n                <!--6 dernieres actus-->\n                <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/business\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/sports\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n                 <div class=\"actu\">\n                    <h3>Actualité</h3>\n                    <img src=\"http://lorempixel.com/180/90/nature\" alt=\"\" class=\"img-border\">\n                    <span class=\"date\">03/06/2013</span>\n                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>\n                    <a href=\"#\" class=\"button\">En savoir plus</a>\n                </div>\n            </div>\n        </div><!--crasc-->\n  </div><!--grid8-->\n      <div class=\"grid_4\" id=\"leright\">\n\n                    <h2 class=\"p3\">Newsletter</h2>\n\n            <!--ok maggots here goes the pecking order-->\n<a href=\"#myModal\" role=\"button\" class=\"btn\" data-toggle=\"modal\">Cliquez ici pour vous abonner à la newsletter</a>\n            <!--first annonces-->\n            <h2 class=\"top-1 p3\">Annonces & Opportunités</h2>\n                <ul class=\"list-1\" id=\"annonces-defilantes\">\n                    <li>\n                        <h4><a href=\"#\">Annonce 1</a></h4>\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                        <span>10 juin 2013</span>\n                    </li>\n                    <li>\n                        <h4><a href=\"#\">Annonce 2</a></h4>\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                        <span>10 juin 2013</span>\n                    </li>\n                    <li>\n                        <h4><a href=\"#\">Annonce 3</a></h4>\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                        <span>10 juin 2013</span>\n                    </li>\n                </ul>\n            <!--then the database-->\n            <h2 class=\"p3\">Base de données des OSC</h2>\n                <a href=\"#\">\n                  <img id=\"bbdosc\" src=\"images/bdd.jpg\" height=\"200px\" alt=\"cliquez ici pour consulter la base de données des OSC ivoiriennes\"/>\n                </a>\n            <!--then an calendar-->\n            <h2 class=\"p3\">Agenda</h2>\n<ul class=\"list-1\" id=\"annonces-non-defilantes\">\n                    <li>\n                        <h4><a href=\"#\">Event 1</a></h4>\n                        <span>10 juin 2013</span>\n\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                    </li>\n                    <li>\n                        <h4><a href=\"#\">Evenement 2</a></h4>\n                        <span>10 juin 2013</span>\n\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                    </li>\n                    <li>\n                        <h4><a href=\"#\">Evenement 3</a></h4>\n                        <span>10 juin 2013</span>\n\n                        <p>\n                            Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.\n                        </p>\n                    </li>\n                </ul>\n            <!--then some links-->\n            <h2 class=\"p3\">Liens utiles</h2>\n            <div class=\"lists\">\n                <ul class=\"list-1\">\n                    <li><a href=\"#\">Lien 1</a></li>\n                    <li><a href=\"#\">Lien 2</a></li>\n                    <li><a href=\"#\">Lien 3</a></li>\n                </ul>\n                <ul class=\"list-1 last\">\n                    <li><a href=\"#\">Lien 1</a></li>\n                    <li><a href=\"#\">Lien 2</a></li>\n                    <li><a href=\"#\">Lien 3</a></li>\n                </ul>\n            </div>\n            <h2 class=\"p3\">Rapports d'activités</h2>\n      </div>\n      <!--summmon the connexion form.here. Terminate it on site launch-->\n      <div class=\"clear\"></div>\n    </div>\n</section>\n</div>\n    <footer class=\"container_12\">\n        <div class=\"grid_7\" id=\"coordo\">\n            <div class=\"grid_12\" id=\"ree\">\n                <img src=\"images/logo.gif\" alt=\"\">\n                <img id=\"ue\" src=\"images/Untitled1.png\"/>\n                <img id=\"ceraplogo\" src=\"images/Untitled2.png\"/>\n                <img src=\"images/untitled.jpg\"/><br/>\n            </div>\n            <p>© 2013 | Programme Leadership et Initiatives des Acteurs non Étatiques (LIANE)  |<a href=\"#myModal2\" data-toggle=\"modal\">Se connecter</a>\n</p>\n        </div>\n        <div class=\"grid_5\" id=\"ifrapport\">\n            <h3 class=\"p3\" id=\"footsie\">partenaires</h3>\n            <ul id=\"potz\">\n                <li><a class=\"potnas\" href=\"#\"><img src=\"images/Logo_ARK.jpg\"/></a></li>\n                <li><a class=\"potnas\" href=\"#\"><img src=\"images/Logo_ASAPSU.jpg\"/></a></li>\n                <li><a class=\"potnas\" href=\"#\"><img src=\"images/Logo_COAB.jpg\"/></a></li>\n                <li><a class=\"potnas\" href=\"#\"><img src=\"images/Logo_COVABLCI.jpg\"/></a></li>\n            </ul>\n        </div>\n    </footer>\n<!-- Modal -->\n<div id=\"myModal\" class=\"modal hide fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-header\">\n    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n    <h3 id=\"myModalLabel\">Newsletter</h3>\n  </div>\n  <div class=\"modal-body\">\n<form class=\"form-horizontal\">\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"inputEmail\">Nom et prénoms</label>\n    <div class=\"controls\">\n      <input type=\"text\" id=\"inputEmail\" placeholder=\"Noms prenoms\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"inputPassword\">Email</label>\n    <div class=\"controls\">\n      <input type=\"password\" id=\"inputPassword\" placeholder=\"Email\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <div class=\"controls\">\n      <button type=\"submit\" class=\"btn\">S'abonner</button>\n    </div>\n  </div>\n</form>  </div>\n  <div class=\"modal-footer\">\n    <button class=\"btn\" data-dismiss=\"modal\" aria-hidden=\"true\">Fermer cette fenêtre</button>\n  </div>\n</div>\n<!--formulaire de connexion a l interface d admin-->\n<div id=\"myModal2\" class=\"modal hide fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-header\">\n    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n    <h3 id=\"myModalLabel\">Newsletter</h3>\n  </div>\n    <div class=\"modal-body\">\n\n<?php\n  if(!user_is_logged_in() ){\n    print drupal_render(drupal_get_form('user_login'));\n  }else{\n    print \"You are already logged in!\";\n  }\n?>\n\n    </div>\n  <div class=\"modal-footer\">\n    <button class=\"btn\" data-dismiss=\"modal\" aria-hidden=\"true\">Fermer cette fenêtre</button>\n  </div>\n</div>\n",
+			"file": "templates/page-front.tpl.php",
+			"file_size": 19238,
+			"file_write_time": 130159557863084670,
+			"settings":
+			{
+				"buffer_size": 18874,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/sites/all/modules/wysiwyg/editors/ckeditor.inc",
+			"settings":
+			{
+				"buffer_size": 17407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page-front.tpl - Copie.php",
+			"settings":
+			{
+				"buffer_size": 18861,
 				"line_ending": "Windows"
 			}
 		},
@@ -46,6 +76,22 @@
 			{
 				"buffer_size": 15618,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/page--user.tpl.php",
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/html.tpl.php",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -73,6 +119,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Webmaster/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page.tpl.php",
+		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/node.tpl.php",
 		"/C/Users/Webmaster/Documents/GitHub/Drupal-Skeleton/templates/pages/page.tpl.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/template.php",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/template.php",
@@ -80,7 +129,6 @@
 		"/C/Users/Webmaster/Documents/GitHub/Drupal-Skeleton/template.php",
 		"/C/Users/Webmaster/Documents/GitHub/Drupal-Skeleton/templates/html/html.tpl.php",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/BlurDrupal.info",
-		"/C/Users/Webmaster/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/page.tpl.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/css/style.css",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/css/bootstrap.css",
@@ -98,7 +146,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -112,6 +160,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"while",
+			" while ($max_lines && $line = fgets($library, 140)) {",
 			"drupal_add_js(drupal_get_path('theme', 'BlurDrupal') . '",
 			"BlurDrupal",
 			"../",
@@ -121,7 +171,7 @@
 			"<script src=\""
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -143,7 +193,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -151,15 +201,15 @@
 					"file": "rcliane.info",
 					"settings":
 					{
-						"buffer_size": 456,
+						"buffer_size": 1284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								456,
-								456
+								474,
+								474
 							]
 						],
 						"settings":
@@ -360,27 +410,20 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 18017,
+						"buffer_size": 584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								584,
+								584
 							]
 						],
 						"settings":
@@ -434,13 +477,235 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7035.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "templates/page-front.tpl.php",
+					"settings":
+					{
+						"buffer_size": 18874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4946,
+								4946
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
+					"file": "/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/sites/all/modules/wysiwyg/editors/ckeditor.inc",
+					"settings":
+					{
+						"buffer_size": 17407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6391,
+								6391
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3536.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/page-front.tpl - Copie.php",
+					"settings":
+					{
+						"buffer_size": 18861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "style.css",
 					"settings":
 					{
@@ -451,8 +716,8 @@
 						"selection":
 						[
 							[
-								524,
-								524
+								2,
+								2
 							]
 						],
 						"settings":
@@ -504,6 +769,148 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/page--user.tpl.php",
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								565,
+								565
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/html.tpl.php",
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
