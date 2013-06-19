@@ -32,7 +32,8 @@
 <script>
 		Cufon.now();
 	</script>
-  <script>if (location.hostname === "localhost") { document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>') }</script>
+<script>if (location.hostname === "localhost") { document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>') }</script>
+
 </body>
 
 </html>

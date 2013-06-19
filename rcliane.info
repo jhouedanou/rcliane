@@ -7,6 +7,7 @@ regions[social] = Reseaux sociaux
 regions[navbar] = La navigation horizontale
 regions[connex] = Zone de connexion de l admin
 regions[actu] = message accueil
+regions[content] = contenu de la page
 regions[featured] = 5 dernieres actualites a mettre en emphase
 regions[crasc-sud] = actualite CRASC sud
 regions[crasc-nord] = actualite CRASC nord

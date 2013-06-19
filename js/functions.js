@@ -2,9 +2,11 @@
   Cufon.replace('.readmore-home',{hover: true});
   Cufon.replace('.pe');
   Cufon.replace('h2');
+  Cufon.replace('liane-entetepage',{color:'#303030'});
+  Cufon.replace('div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node h2',{color:'#fff'});
   Cufon.replace('h3');
   Cufon.replace('ul.nav li a',{hover: true});
-  Cufon.replace('ul.nav li ul li a',{hover: true})
+  Cufon.replace('ul.nav li ul li a',{hover: true});
   (function($){})(window.jQuery);
 
 
