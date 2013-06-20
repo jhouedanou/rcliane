@@ -8,11 +8,7 @@
   Cufon.replace('ul.nav li a',{hover: true});
   Cufon.replace('ul.nav li ul li a',{hover: true});
   (function($){})(window.jQuery);
-
-
 /* trigger when page is ready */
-
-
 $(document).ready(function (){
 
 	var $j = jQuery.noConflict();

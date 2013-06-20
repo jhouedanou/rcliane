@@ -50,32 +50,9 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
     </div>
     <div class="container_12" id="principal">
     <div class="grid_8">
+        <!--actualites de la crasc sud-->
         <div class="crasc">
-            <h2 class="p6" id="crasc-sud">CRASC Sud</h2>
-            <div class="wrap block-1">
-                <!--6 dernieres actus-->
-                <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/business" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/sports" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/nature" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-            </div>
+              <?php print render($page['crasc-sud']);?>
         </div><!--crasc-->
         <div class="crasc">
             <h2 class="p6" id="crasc-nord">CRASC Nord</h2>

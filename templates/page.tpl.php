@@ -17,24 +17,23 @@
         <div class="social-icons">
                 <?php print render($page['social']) ;?>
         </div>
-        <div id="titredelapage">
-                <div id="titrewrapper">
-                    <h2<?php print $title_attributes; ?>>
-                        <a rel="dofollow" class="liane-entetepage" href="<?php print $node_url; ?>"><?php print $title; ?></a>
-                    </h2>
-                </div>
-        </div>
             <div id="navbarwrapper">
                 <?php print render($page['navbar']);?>
             </div><!--navbarwrapper-->
 </header>
 <section id="content"><div class="ic"></div>
     <div class="container_12" id="principal">
+
+        <!--titre de la page-->
+        <div id="titrewrapper" class="container_12">
+                        <h2 class="nobbbottom" <?php print $title_attributes; ?>>
+                            <?php print $title; ?>
+                        </h2>
+                </div>
     <div class="grid_8" id="pagedecontenu">
           <?php print render($page['content']); ?>
   </div><!--grid8-->
       <div class="grid_4" id="leright">
-
                     <h2 class="p3">Newsletter</h2>
 
             <!--ok maggots here goes the pecking order-->

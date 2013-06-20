@@ -298,20 +298,27 @@ color:#FFF !important;
     border-bottom:#005d2f 4px solid;
         width:99%
       }
-.actu{
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul{
+  overflow:hidden;
+  padding:5px 0
+}
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li{
     background: none repeat scroll 0 0 #FFFFFF;
 border: 1px solid #E7E7E7;
 box-shadow: 0 4px 3px #CCCCCC;
 margin-bottom: 10px;
 padding: 3px;
+width:189px;
+float:left;
+margin-left:4px;
      -moz-transition-duration: 0.8s;
       -ms-transition-duration: 0.8s;
        -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-.actu:hover{
+          transition-duration: 0.8s;}
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li:hover{
   border:#CCC 1px solid;
-
+padding:3px;
+cursor:pointer;
   -webkit-transition-duration: 0.8s;
      -moz-transition-duration: 0.8s;
       -ms-transition-duration: 0.8s;
@@ -691,27 +698,25 @@ width: 100%;}
  .node-message-d-accueil{
  }
 .liane-entetepage{
-        color:#303030;
+        color:#FFF !important;
         font-size:18px;
         padding:5px;
-          background: #ededed; /* Old browsers */
-background: -moz-linear-gradient(top,  #ededed 0%, #f6f6f6 53%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(53%,#f6f6f6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
         line-height:22px
 }
 #titrewrapper{
-  margin:0 auto;
-  width:960px;
-  height:auto;
-  padding:5px;
-  text-align:right;}
+background: none repeat scroll 0 0 #007947;
+border-radius: 5px 5px 5px 5px;
+float: left;
+color:#FFF !important;
+height: auto;
+margin: 0 auto;
+padding: 12px 5px;
+position: relative;
+text-align: left;
+width: 97%;}
 
-  html.js body div.main header div#contenu-header div#titredelapage div#titrewrapper h2{
+.nobbbottom{
+  color:#FFF !important;
     border-bottom: none !important;
   }
 #content{
