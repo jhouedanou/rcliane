@@ -1,4 +1,11 @@
 html, body {width:100%; padding:0; margin:0;}
+a:hover{
+   -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s
+}
 body {font:14px/25px 'Droid Sans',Helvetica,sans-serif !important;
 color:#333333;min-width:1016px;background:#131313;
  -webkit-transition-duration: 0.8s;
@@ -28,15 +35,16 @@ div#block-views-message-d-accueil-block.block div.content div.view div.view-cont
        -o-transition-duration: 0.8s;
           transition-duration: 0.8s;
               }
-div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node div.submitted{
-  font-size:9px;
+.submitted{
+  font-size:10px !important;
+   line-height:12px !important;
     clear: both;
     color:  #CCC;
     display: block;
     padding: 4px;
     text-shadow: 1px 1px #FFFFFF;
 }
-div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node div.submitted span a.username{
+div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node div.submitted span a.username, ul.crasc-contenu li.ym-equalize div.node div.submitted span a.username{
   color:#000
 }
 html.cufon-active body div.main header div#contenu-header div#slide div.slider div.item img{
@@ -52,14 +60,18 @@ html.cufon-active body div.main header div#contenu-header div#slide div.slider d
   padding:5px;
   margin-top:12px
 }
+ div#principal.container_12 div.grid_8{
+padding-top:14px;
+
+}
 a.button:hover {background:#131313; }
 a.link {text-decoration:none; cursor:pointer; color:#2098f5; }
 a.link:hover {text-decoration:underline;}
 .color-1 { color:#fff;}
 a.color-1:hover {text-decoration:underline;}
 .font-3 {font-size:17px; line-height:33px; color:#292929;}
-h2 { border-bottom: 1px solid #DBDBDB;
-    color: #303030;
+h2 {
+   /* color: #303030;*/
     font-size: 15px;
     line-height: 18px;
     padding: 0 0 5px;
@@ -132,13 +144,13 @@ z-index: 100;}
   margin: 7px 1px 0
 }
 .social-icons {
-  background:url("images/decob.png") no-repeat scroll center -7px transparent;
+  background:url("images/decob.png") no-repeat scroll center 22px transparent;
 border-bottom: 6px solid #FFF;
 overflow: hidden;
 padding: 17px 132px 13px 0;
 text-align: right;}
 .social-icons span {display:inline-block; font-size:24px; line-height:28px; color:#fff; margin:-1px 20px 0 0; letter-spacing:-1px;}
-.social-icons a {display:inline-block; width:23px; height:23px; float:right;}
+.social-icons a {display:inline-block; width:23px; height:23px; float:right;color:white }
 .icon-1 {background:url(images/icon-1.png) #00ACED 0 0 no-repeat;}
 .icon-2 {background:url(images/icon-2.png) #3C599B 0 0 no-repeat; margin-left:7px;}
 .icon-3 {background:url(images/icon-3.png) #F53400 0 0 no-repeat; margin-left:7px;}
@@ -278,36 +290,66 @@ ul.menu li.current {background:#5F534D;}
   color:#FFF !important;
   width:97%
 }
-#crasc-ouest{
+#crasc-ouest,{
 background:#007f40;
 border-bottom:#006e38 4px solid;
  padding:5px;
 color:#FFF !important;
  width:97%}
-#crasc-nord{
+#crasc-nord, div.region div#block-views-crasc-nord-block.block h2, div.region div#block-views-crasc-ouest-block.block h2{
       padding:5px;
       color:#FFF !important;
       width:97%;
+      -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+              border-radius: 5px;
     background:#e37239;
     border-bottom:#db5e1f 4px solid;
 }
-#crasc-sud,div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node h2 {
+div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 a.liane-titre,div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 a.liane-titre{
+   color:#e37239 !important;
+}
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 a.liane-titre,div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 a.liane-titre,div#block-views-crasc-centre-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 a.liane-titre{
+ color:#006e38 !important;
+}
+#crasc-sud,div.region div#block-views-crasc-sud-block.block h2,div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row .node h2,div#block-views-crasc-est-block.block h2 ,div#block-views-crasc-ouest-block.block h2,div#block-views-crasc-centre-block.block h2  {
         padding:5px;
         color:#FFF !important;
     background:#006e38;
+    -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
     border-bottom:#005d2f 4px solid;
         width:99%
       }
-div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul{
+ div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2, div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2, div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2, div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2, div#block-views-crasc-centre-block.block div.content div.view div.view-content div.item-list ul.crasc-contenu li.ym-equalize div.node h2 {
+  width: 96% !important;
+  -webkit-border-radius: 0px !important;
+          border-radius: 0px !important;
+          background: none !important;
+          font-size:13px !important;
+          line-height:18px !important;
+          border-bottom:none !important
+      }
+
+.comment-add{
+  display:none !important
+}
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul,
+div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul,div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul,
+div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul,
+div#block-views-centre-ouest-block.block div.content div.view div.view-content div.item-list ul{
   overflow:hidden;
   padding:5px 0
 }
-div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li{
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li,div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul li,div#block-views-crasc-centre-block.block div.content div.view div.view-content div.item-list ul li,div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul li,div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul li{
     background: none repeat scroll 0 0 #FFFFFF;
 border: 1px solid #E7E7E7;
 box-shadow: 0 4px 3px #CCCCCC;
 margin-bottom: 10px;
 padding: 3px;
+-webkit-border-radius: 5px;
+        border-radius: 5px;
 width:189px;
 float:left;
 margin-left:4px;
@@ -390,7 +432,7 @@ div#contenu-header div#honest a img{
   height:auto
 }
 
-.slider { width:100%;
+#sinner { width:100%;
 	height:436px;
   margin:0 auto !important;
     overflow:hidden;
@@ -430,7 +472,7 @@ div#contenu-header div#honest a img{
 .illu{
 	width:auto;
 	height:581px;}
-.infos{
+.infos,div#slide div.region div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul.news li.row div.node div.content div.field-type-text-with-summary{
 background: url(images/nav-bg.png);
 font-size: 13px;
 line-height: 21px;
@@ -670,7 +712,7 @@ padding: 3px;
       -ms-transition-duration: 0.8s;
        -o-transition-duration: 0.8s;
           transition-duration: 0.8s;
-    width:99%;
+    width:96%;
     background:#fff;
     margin:10px 0 10px 0;
     padding: 3px 3px 15px;
@@ -686,7 +728,7 @@ div#block-views-message-d-accueil-block.block div.content div.view div.view-cont
  }
 .liane-titre{
 border-bottom: 1px solid #DDDDDD;
-color: #303030 !important;
+/*color: #303030 !important;*/
 display: block;
 padding: 10px 0;
 width: 100%;}
@@ -703,6 +745,7 @@ width: 100%;}
         padding:5px;
         line-height:22px
 }
+
 #titrewrapper{
 background: none repeat scroll 0 0 #007947;
 border-radius: 5px 5px 5px 5px;
@@ -719,6 +762,64 @@ width: 97%;}
   color:#FFF !important;
     border-bottom: none !important;
   }
-#content{
-  text-align:justify
+.field-name-field-image-de-l-actualit-{
+  padding:0 0 10px 0
 }
+#content{}
+ div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row div#node-1.node ul.links, div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row div.node ul.links li{
+  margin-left:0px !important
+}
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul{
+}
+ div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li , div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li , div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li , div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li, div#block-views-crasc-centre-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li {
+          -moz-box-shadow:none !important;
+        -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+     float:left;
+     width: 44%;
+     border:none !important;
+     position:relative;
+     text-align:left;
+     margin:0 !important
+}
+ div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a, div#block-views-crasc-nord-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a, div#block-views-crasc-est-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a, div#block-views-crasc-ouest-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a, div#block-views-crasc-centre-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a{
+  background: black;
+color: #FFF !important;
+display: inline-block;
+font-size: 11px;
+line-height: 10px;
+margin: 0 auto;
+padding: 5px;
+text-align: center !important;
+vertical-align: middle;
+width: 67%;
+ }
+  div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node ul.links li a:hover{
+    background:#666;
+    color:#CCC
+  }
+div#block-views-crasc-sud-block.block div.content div.view div.view-content div.item-list ul li.ym-equalize div.node div.content div.field div.field-items div.field-item a img{
+
+}
+div#slide div.region div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul.news li.row div.node div.submitted{
+  display:none !important
+}
+ div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul li.views-row{
+height: 400px;
+overflow: hidden;
+position: relative;
+}
+div#slide div.region div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul.news li.row div.node h2{
+position: absolute;
+right: 4%;
+}
+ div#slide div.region div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul.news li.row div.node a.btn{
+position: absolute;
+right: 4%;
+bottom:14%
+}
+div#block-views-actu-a-la-une-block.block div.content div.view div.view-content div.item-list ul li.views-row div#node-10.node div.content div.field div.field-items div.field-item img{
+  position:relative;
+  clear: both
+}
+

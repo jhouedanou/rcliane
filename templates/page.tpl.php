@@ -11,7 +11,9 @@
                       </a>
             </div>
             <div id="spon">
-                <?php print render($page['sponsors']) ;?>
+                           <img id="ue" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/Untitled1.png')); ?>
+                    <img id="ceraplogo" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/Untitled2.png')); ?>
+                     <img style="float:left" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/untitled.jpg')); ?>
             </div>
         </div>
         <div class="social-icons">
@@ -23,7 +25,6 @@
 </header>
 <section id="content"><div class="ic"></div>
     <div class="container_12" id="principal">
-
         <!--titre de la page-->
         <div id="titrewrapper" class="container_12">
                         <h2 class="nobbbottom" <?php print $title_attributes; ?>>
@@ -32,10 +33,12 @@
                 </div>
     <div class="grid_8" id="pagedecontenu">
           <?php print render($page['content']); ?>
+           <!--btn preceden-->
+           <a  class="btn btn-success" type="button" href="javascript:history.back()">Page Précédente</a>
   </div><!--grid8-->
+
       <div class="grid_4" id="leright">
                     <h2 class="p3">Newsletter</h2>
-
             <!--ok maggots here goes the pecking order-->
 <a href="#myModal" role="button" class="btn" data-toggle="modal">Cliquez ici pour vous abonner à la newsletter</a>
             <!--first annonces-->

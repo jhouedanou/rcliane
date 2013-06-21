@@ -23,9 +23,13 @@
       print render($content);
     ?>
   </div>
+<?php
+if($teaser){
+      print l(t('En savoir plus'), '../' . $node_url, array('attributes' => array('class' => t('btn btn-success'))));
+  }
+?>
+  <?php //print render($content['links']); ?>
 
-  <?php print render($content['links']); ?>
-
-  <?php print render($content['comments']); ?>
+  <?php //print render($content['comments']); ?>
 
 </div>

@@ -24,7 +24,6 @@
   <?php print $scripts; ?>
 </head>
 <body>
-
   <?php print $page_top . "\n";    /* generated content from modules, etc. */    ?>
   <?php print $page . "\n";        /* page{--*}.tpl.php renders in this space */ ?>
   <?php print $page_bottom . "\n"; /* generated content from modules, etc. */    ?>

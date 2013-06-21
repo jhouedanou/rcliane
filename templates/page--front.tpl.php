@@ -7,13 +7,15 @@
         <div id="honest">
           <div>
                       <a rel="dofollow" href="<?php print base_path(); ?>">
-                        <img src="<?php print $logo; ?>" alt="" />
+                        <img src="<?php print $logo; ?>"alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire"  />
                       </a>
             </div>
             <div id="spon">
-                <?php print render($page['sponsors']) ;?>
+                    <img id="ue" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/Untitled1.png')); ?>
+                    <img id="ceraplogo" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/Untitled2.png')); ?>
+                     <img style="float:left" style="float:left" alt="Leadership et initiative des acteurs non étatiques en Côte d'ivoire" src=<?php echo theme('image', array('path' => drupal_get_path('theme', 'rcliane') .'/images/untitled.jpg')); ?>
             </div>
-        </div>
+        </div><!--honest like abe lincoln-->
         <div class="social-icons">
                 <?php print render($page['social']) ;?>
         </div>
@@ -22,27 +24,12 @@
             </div><!--navbarwrapper-->
     <!--slider page accueil-->
         <div id="slide">
+            <div id="sinner">
+                <?php print render($page['featured']);?>
             <a class="prev"></a>
             <a class="next"></a>
-            <div class="slider">
-                <div class="item">
-                  <img class="illu" src="images/1.jpg"/>
-                    <div class="infos">
-                    <h3>Atelier de validation des outils d'intervention</h3>
-                    <p>CRASC Stiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
-          </div>
-                </div>
-                <div class="item">
-                    <img class="illu" src="images/2.jpg"/>
-                    <div class="infos">
-                    <h3>Lancement des activités du programme LIANE</h3>
-                    <p>Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
-                    </div>
-                </div>
-        </div>
-    </div>
+            </div>
+        </div><!--slide-->
 </header>
 <section id="content"><div class="ic"></div>
     <div class="container_12" id="homemsg">
@@ -51,120 +38,25 @@ Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Done
     <div class="container_12" id="principal">
     <div class="grid_8">
         <!--actualites de la crasc sud-->
-        <div class="crasc">
+        <div class="crasc" id="crasc_dud">
               <?php print render($page['crasc-sud']);?>
-        </div><!--crasc-->
+        </div><!--crasc 6 DERNIERE actualite-->
         <div class="crasc">
-            <h2 class="p6" id="crasc-nord">CRASC Nord</h2>
-            <div class="wrap block-1">
-                <!--6 dernieres actus-->
-                <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/business" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/sports" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/nature" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-            </div>
+              <?php print render($page['crasc-nord']);?>
         </div><!--crasc-->
-        <div class="crasc">
-            <h2 class="p6" id="crasc-ouest">CRASC Ouest</h2>
-            <div class="wrap block-1">
-                <!--6 dernieres actus-->
-                <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/business" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/sports" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/nature" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-            </div>
+      <div class="crasc">
+              <?php print render($page['crasc-est']);?>
         </div><!--crasc-->
-        <div class="crasc">
-            <h2 class="p6" id="crasc-est">CRASC Est</h2>
-            <div class="wrap block-1">
-                <!--6 dernieres actus-->
-                <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/business" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/sports" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/nature" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-            </div>
+      <div class="crasc">
+              <?php print render($page['crasc-ouest']);?>
         </div><!--crasc-->
-<div class="crasc">
-            <h2 class="p6" id="crasc-centre">CRASC Centre</h2>
-            <div class="wrap block-1">
-                <!--6 dernieres actus-->
-                <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/business" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/sports" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-                 <div class="actu">
-                    <h3>Actualité</h3>
-                    <img src="http://lorempixel.com/180/90/nature" alt="" class="img-border">
-                    <span class="date">03/06/2013</span>
-                    <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                    <a rel="dofollow" href="#" class="button">En savoir plus</a>
-                </div>
-            </div>
+              <div class="crasc">
+              <?php print render($page['crasc-centre']);?>
         </div><!--crasc-->
   </div><!--grid8-->
-      <div class="grid_4" id="leright">
 
+  <!--colonnne de gauche-->
+      <div class="grid_4" id="leright">
                     <h2 class="p3">Newsletter</h2>
 
             <!--ok maggots here goes the pecking order-->

@@ -24,8 +24,4 @@
     drupal_add_js(drupal_get_path('theme', 'rcliane') . '/js/bootstrap-typeahead.js');
     drupal_add_js(drupal_get_path('theme', 'rcliane') . '/js/bootstrap-affix.js');
     drupal_add_js(drupal_get_path('theme', 'rcliane') . '/js/functions.js');
-
-
-
-
 ?>

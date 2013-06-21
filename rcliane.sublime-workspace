@@ -11,7 +11,7 @@
 			"file": "js/functions.js",
 			"settings":
 			{
-				"buffer_size": 2927,
+				"buffer_size": 7144,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,15 +19,63 @@
 			"file": "templates/page--front.tpl.php",
 			"settings":
 			{
-				"buffer_size": 18247,
+				"buffer_size": 10635,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 9754,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 26933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/node.tpl.php",
+			"settings":
+			{
+				"buffer_size": 1124,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "rcliane.info",
 			"settings":
 			{
-				"buffer_size": 1326,
+				"buffer_size": 1428,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Webmaster/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "archive.html",
+			"settings":
+			{
+				"buffer_size": 19839,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template.php",
+			"settings":
+			{
+				"buffer_size": 1965,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +83,7 @@
 			"file": "templates/html.tpl.php",
 			"settings":
 			{
-				"buffer_size": 1702,
+				"buffer_size": 1701,
 				"line_ending": "Windows"
 			}
 		}
@@ -64,6 +112,11 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/js/jquery.syncheight.js",
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/template.php",
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page--front.tpl.php",
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page.tpl.php",
+		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/modules/node/node.tpl.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/rcliane.info",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/archive.html",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/html.tpl.php",
@@ -75,7 +128,6 @@
 		"/C/Users/Webmaster/AppData/Local/Temp/4951a7d0-cbc5-47c2-a656-40b4640c95f7/application/wp-config.php",
 		"/C/Users/Webmaster/AppData/Local/Temp/4951a7d0-cbc5-47c2-a656-40b4640c95f7/wp-config.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page-front.tpl.php",
-		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page.tpl.php",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/page--user.tpl.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page-front.tpl",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/templates/page-front.tpl - Copie.php",
@@ -85,7 +137,6 @@
 		"/C/Users/Webmaster/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/templates/node.tpl.php",
 		"/C/Users/Webmaster/Documents/GitHub/Drupal-Skeleton/templates/pages/page.tpl.php",
-		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/template.php",
 		"/C/Users/Webmaster/Documents/GitHub/BlurDrupal/template.php",
 		"/C/Program Files/BitNami Drupal Stack/apps/drupal/htdocs/themes/rcliane/index.html",
 		"/C/Users/Webmaster/Documents/GitHub/Drupal-Skeleton/template.php",
@@ -120,6 +171,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slide",
+			"justif",
+			"est",
+			"es",
+			"est",
+			"nord",
+			"centre",
+			"sud",
+			"console",
+			"a href",
 			"div#node-2",
 			"div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-ro",
 			"div#block-views-message-d-accueil-block.block div.content div.view div.view-content ul li.views-row",
@@ -143,6 +204,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ouest",
+			"est",
+			"nord",
+			"centre",
+			"a rel=\"dofollow\" href",
 			"",
 			"images",
 			"drupal_add_js(drupal_get_path('theme', 'rcliane') . '/",
@@ -162,7 +228,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -170,15 +236,15 @@
 					"file": "js/functions.js",
 					"settings":
 					{
-						"buffer_size": 2927,
+						"buffer_size": 7144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								415,
-								415
+								4905,
+								4905
 							]
 						],
 						"settings":
@@ -230,31 +296,25 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3024.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "templates/page--front.tpl.php",
 					"settings":
 					{
-						"buffer_size": 18247,
+						"buffer_size": 10635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1727,
+								1727
 							]
 						],
 						"settings":
@@ -308,25 +368,248 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 945.0,
+						"translation.y": 504.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "rcliane.info",
+					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 1326,
+						"buffer_size": 9754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								983,
-								983
+								1123,
+								1123
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 26933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15487,
+								15487
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": true,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/node.tpl.php",
+					"settings":
+					{
+						"buffer_size": 1124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "rcliane.info",
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								458
 							]
 						],
 						"settings":
@@ -384,11 +667,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "templates/html.tpl.php",
+					"buffer": 6,
+					"file": "/C/Users/Webmaster/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 1702,
+						"buffer_size": 787,
 						"regions":
 						{
 						},
@@ -397,6 +680,221 @@
 							[
 								0,
 								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "archive.html",
+					"settings":
+					{
+						"buffer_size": 19839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5323,
+								5323
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1890.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "template.php",
+					"settings":
+					{
+						"buffer_size": 1965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/html.tpl.php",
+					"settings":
+					{
+						"buffer_size": 1701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
 							]
 						],
 						"settings":
